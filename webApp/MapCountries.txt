@@ -1,0 +1,170 @@
+﻿1. Russia - RUS
+2. Kazakhstan - KAZ
+3. Mongolia - MOG
+4. China - CHN
+5. Japan - JPN
+6. India - IND
+7. Norway - NOR
+8. Sweden - SWE
+9. Brazil - BRZ
+10. Bolivia - BOL
+11. Argentina - ARG
+12. Peru - PER
+13. Colombia - COL
+14. Venezuela - VEN
+15. Chile - CHL
+16. Uruguay - URU
+17. Paraguay - PAR
+18. Ecuador - ECU
+19. Guyana - GUY
+20. Suriname - SUR
+21. French Guiana -FRG
+22. Mexico - MEX
+23. Guatemala - GUA
+24. Belize - BEZ
+25. Honduras - HON
+26. El Salvador - ESA
+27. Nicaragua - NIC
+28. Cuba - CUB
+29. Jamaica - JAM
+30. San Jose - SAN
+31. Panama - PAN
+32. The Bahamas - BAH
+33. Haiti - HAT
+34. Dominican Republic - DOM
+35. United States of America - USA
+36. Canada - CAN
+37. Alaska (USA) - ALA
+38. Greenland - GRN
+39. Iceland - ICE
+40. South Africa - SA
+41. Lesotho - LES
+42. Swaziland - SWA 
+43. Botswana - BOT
+44. Namibia - NAM
+45. Angola - ANG
+46. Zimbabwe - ZIM
+47. Zambia - ZAM
+48. Mozambique - MOZ
+49. Malawi - MAL
+50. Tanzania - TAZ
+51. Democratic Republic of the Congo- CON
+52. Kenya - KEN
+53. Uganda - UGA
+54. Burundi - BUR
+55. Rwanda - RWA
+56. Congo - COG
+57. Gabon - GAB
+58. Cameroon - CAM
+59. Central African Republic - CER
+60. Sudan - SUD
+61. Ethiopia - ETH
+62. Somalia - SOM
+63. Eritrea - ERT
+64. Madagascar - MAG
+65. Chad - CHA
+66. Nigeria - NGR
+67. Niger - NIG
+68. Egypt - EGY
+69. Libya - LIB
+70. Algeria - ALG
+71. Mali - MAL
+72. Ghana - GHA
+73. Burkina Faso - BUR
+74. Mauritania - MAU
+75. Guinea - GUI
+76. Senegal - SEN
+77. Morocco - MOR
+78. Liberia - LIB
+79. Sierra Leone - SIE
+80. Tunisia - TUN
+81. Western Sharah - SHA
+82. Guinea-Bissau - BIS
+83. The Gambia - GAM
+84. Benin - BEN
+85. Togo - TOG
+86. Cote D'ivoire - COT
+87. Yemen - YEM
+88. Oman - OMA
+89. Saudi Arabia - SAU
+90. United Arab Emirates - UAE
+91. Jordan - JOR
+92. Israel - ISR
+93. Iraq - IRA
+94. Syria - SYR
+95. Lebanon - LEB
+96. Kuwait - KUW
+97. Qatar - QAT
+98. Iran - IRN
+99. Cyprus - CYP
+100. Greece - GRE
+101. Turkey - TUR
+102. Armenia - AME
+103. Azerbaijan - AZB
+104. Bulgaria - BUL
+105. Albania - ALB
+106. Macedonia - MAC
+107. Serbia - SER
+108. Montenegro - MNT
+109. Romania - ROM
+110. Moldova - MOL
+111. Italy - ITA
+112. Malta - MTA
+113. Bosnia and Herz. - BOS
+114. Croatia - CRO
+115. Slovenia - SLV
+116. Austria - AUT
+117. Hungary - HUN
+118. Slovakia - SLO
+119. Poland - POL
+120. Ukraine - UKR
+121. Belarus - BEL
+122. Lithuania - LIT
+123. Czech Republic - CZR
+124. Germany - GER
+125. France - FR
+126. Spain - SPA
+127. Portugal - POR
+128. United Kingdom - UK
+129. Ireland - IRE
+130. Netherlands - NTH
+131. Belgium - BLG
+132. Switzerland - SWZ
+133. Denmark - DEN
+134. Finland - FIN
+135. Latvia - LAT
+136. Estonia - EST
+137. Liechtenstein - LCH
+138. Luxembourg - LUX
+139. Uzbekistan - UZB
+140. Turkmenistan - TRK
+141. Afghanistan- AFG
+142. Kashmir - KSH
+143. Pakistan - PAK
+144. Nepal - NEP
+145. Djibouti - DIJ
+146. Bangladesh - BNG
+147. Bhutan  - BHU
+148. Myanmar - MYA
+149. Laos - LAO
+150. Thailand - THA
+151. Cambodia - CMB
+152. Vietnam - VET
+153. Malaysia - MLY
+154. Indonesia - IDO
+155. Philippines - PHI
+156. Papua New Guinea - PAP
+157. Australia - AUS
+158. New Zealand - NZ
+159. Brunei - BRU
+160. North Korea - NKO
+161. South Korea - SKO
+162. Trinidad and Tobago -TRIN
+163. Equatorial Guinea - EQU
+164. Cabinda - CAB
+165. Sri Lanka - SRI
+166. Solomon Islands - SOL
+167. Fiji - FIJ
+168. Vanuatu - VAN
+169. Hawaii - HAW
+170. Puerto Rico - PR
