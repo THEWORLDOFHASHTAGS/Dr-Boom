@@ -28,13 +28,13 @@ body {
 
 .map g {
     fill: #FF1744;
-    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.26);
-    transition: all 0.2s ease-in-out;
+    /*box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.26);
+    transition: all 0.2s ease-in-out;*/
 }
 
 .map g:hover {
     fill: #FF8A80 !important;
-    -webkit-tranform: scale(1.1);
+    /*-webkit-tranform: scale(1.1);*/
     
 }
 

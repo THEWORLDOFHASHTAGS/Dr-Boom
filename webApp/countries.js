@@ -1,24 +1,40 @@
+
 var countries = [
     {
         "country_name": "United States of America",
-        "country_code": "Usa",
-        "population": 900000
+        "country_code": "USA"
+    },
+    {
+        "country_name": "Japan",
+        "country_code": "JPN"
+    },
+    {
+        "country_name": "Russia",
+        "country_code": "RUS"
+    },
+    {
+        "country_name": "India",
+        "country_code": "IND"
+    },
+    {
+        "country_name": "Australia",
+        "country_code": "AUS"
+    },
+    {
+        "country_name": "Sweden",
+        "country_code": "SWE"
     }
-]
-var temp_array= countries.map(function(item)) {
-                              return item.population;
-                              });
-for (i = 0; i < countries.length; i++) {
-    $('#'+ countries[i].country_code)
-    .css({'fill': 'rgba(11, 104, 170,' 
-         + countries[i].population/highest_value 
-         +')'}).data('country', countries[i]);
-}
-$(document).ready(function(e) {
+];
+
+$(function(e) {
+   
+    for (i = 0; i < countries.length; i++) {
+    $('#'+countries[i].country_code).data('country', countries[i]);
+    }
     
     $('.map g').click(function() {
         var country_data= $(this).data('country');
-       $('<div class="model"><h2>Vive la France!</h2><button class="close">close</button></div>').appendTo('body');
+        $('<div class="model">'+country_data.country_name+'<br><button class="close">close</button></div>').appendTo('body');
     }); 
     
     $('body').on('click', '.close', function() {
