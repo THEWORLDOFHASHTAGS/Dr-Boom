@@ -701,4 +701,5 @@ $(function(e) {
     $('body').on('click', '.close', function() {
         $('.model').remove();
     });
+    
 });
