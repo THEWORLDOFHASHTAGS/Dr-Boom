@@ -30,7 +30,7 @@ body {
 }
 
 .map g {
-    fill: #ccc;
+    fill: #00E676;
     stroke: #fff;
     stroke-width: 0.2;
     /*box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.26);
@@ -38,7 +38,7 @@ body {
 }
 
 .map g:hover {
-    fill: #FF8A80 !important;
+    fill: #69F0AE !important;
     /*-webkit-tranform: scale(1.1);*/
     
 }
@@ -65,7 +65,7 @@ body {
     width: 40%;
     height: 50%;
     background-color: #FFFFFF;
-    color: #FF1744;
+    color: #F44336;
     font-style: oblique;
     text-align: center;
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
