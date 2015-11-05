@@ -704,7 +704,7 @@ $(function(e) {
           +country_data.country_name
           +'<br>'
           +'<div class="country">'
-          +'<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="mySVG">'
+          +'<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="mySVG" width="400" height="400">'
           +'</svg>'
           +'</div>'
           +'<div class="tagbox">'
@@ -715,7 +715,7 @@ $(function(e) {
         $('.map #'+country_data.country_code).clone().appendTo('#mySVG');
     }); 
     
-    $('body').on('click', '.close', function() {
+    $('body').on('click', '.close', 'body', function() {
         $('.model').remove();
     });
     
