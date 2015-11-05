@@ -31,8 +31,7 @@ var countries = [
     },
     {
         "country_name": "Russia",
-        "country_code": "RUS",
-        "country_tags": "#romanian #mycity #like4like #tb #mybestphoto #motivation #фразадня #петров #язык #казахстан #happyenglish #ispeak #урок #словодня #английский #englishkz #английскийалматы #принцесса #kazinsta #полиглот #английскийдлявзрослых #instaenglish #phrases #обучение #сказка #алматы #курсы #english #everydayenglish #английскийвалматы"
+        "country_code": "RUS"
     },
     {
         "country_name": "Mongolia",
@@ -597,7 +596,7 @@ var countries = [
     {
         "country_name": "United States of America",
         "country_code": "USA_1_",
-        "country_tag": "#cute #mcm #usa #tumblrgirl #selfie #sfs #tbh #facebook #follow4follow #mcw #girl #onedirection #tumblrboy #shoutouts #wcw #famous #followforfollow #kyliejenner #beyonce #shoutout #justinbieber #followers #f4f #likeforlike #cutie #wcm #followme #disney #disneylandresort #excited"
+        "country_tags": "#cute #mcm #usa #tumblrgirl #selfie #sfs #tbh #facebook #follow4follow #mcw #girl #onedirection #tumblrboy #shoutouts #wcw #famous #followforfollow #kyliejenner #beyonce #shoutout #justinbieber #followers #f4f #likeforlike #cutie #wcm #followme #disney #disneylandresort #excited"
     },
     {
         "country_name": "Trinidad and Tobago",
@@ -653,7 +652,8 @@ var countries = [
     },
     {
         "country_name": "Brazil",
-        "country_code": "BRZ_1_"
+        "country_code": "BRZ_1_",
+        "country_tags": "#girlswhosmokeweed #snowflakes #day8 #horan #curls #15likes #uniform #sillyfaces #coldplay #anime #sweetdreams #followgram #pumps #tower #vscocam #geldi #hairstyle #brunette #cozy #beauty #brunagomes #potd #makeup #fashionphotography #braziliangirl #brasileira #igers #ootd #fall #outfit"
     },
     {
         "country_name": "Mexico",
