@@ -705,8 +705,6 @@ $(function(e) {
           +'<br>'
           +'<div class="country">'
           +'<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="mySVG">'
-          +'<circle cx="100" cy="50" r="40" stroke="black" stroke-width="2" fill="aquamarine"/>'
-          
           +'</svg>'
           +'</div>'
           +'<div class="tagbox">'
@@ -714,6 +712,7 @@ $(function(e) {
           +'</div>'
           +'<button class="close">close</button>'
           +'</div>').appendTo('body');
+        $('.map #'+country_data.country_code).clone().appendTo('#mySVG');
     }); 
     
     $('body').on('click', '.close', function() {
