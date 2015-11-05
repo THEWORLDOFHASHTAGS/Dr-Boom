@@ -703,10 +703,10 @@ $(function(e) {
         $('<div class="model">'
           +country_data.country_name
           +'<br>'
-          +'<div class="country">'
+         /* +'<div class="country">'
           +'<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="mySVG" width="400" height="400">'
           +'</svg>'
-          +'</div>'
+          +'</div>'*/ 
           +'<div class="tagbox">'
           +country_data.country_tags
           +'</div>'
