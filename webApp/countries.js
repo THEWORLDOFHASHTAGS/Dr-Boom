@@ -696,15 +696,18 @@ $(function(e) {
     $('#'+countries[i].country_code).data('country', countries[i]);
     }
     
+    //$('.map g').velocity({ translateX: 100, translateY: 100 });
     $('.map g').click(function() {
         var country_data= $(this).data('country');
-        var a = document.getElementById('.map g');
+        //var a = $(document.createElement('.map g'));
         $('<div class="model">'
           +country_data.country_name
           +'<br>'
           +'<div class="country">'
-          +'<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="-132 113 553 318.6" style="enable-background:new -132 113 553 318.6;" xml:space="preserve">'
+          +'<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="mySVG">'
+          +'<circle cx="100" cy="50" r="40" stroke="black" stroke-width="2" fill="aquamarine"/>'
+          
+          +'</svg>'
           +'</div>'
           +'<div class="tagbox">'
           +country_data.country_tags
