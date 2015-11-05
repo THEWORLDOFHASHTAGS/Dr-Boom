@@ -597,7 +597,7 @@ var countries = [
     {
         "country_name": "United States of America",
         "country_code": "USA_1_",
-        "country_tag": "#cute #mcm #usa #tumblrgirl #selfie #sfs #tbh #facebook #follow4follow #mcw #girl #onedirection #tumblrboy #shoutouts #wcw #famous #followforfollow #kyliejenner #beyonce #shoutout #justinbieber #followers #f4f #likeforlike #cutie #wcm #followme #disney #disneylandresort #excited"
+        "country_tags": "#cute #mcm #usa #tumblrgirl #selfie #sfs #tbh #facebook #follow4follow #mcw #girl #onedirection #tumblrboy #shoutouts #wcw #famous #followforfollow #kyliejenner #beyonce #shoutout #justinbieber #followers #f4f #likeforlike #cutie #wcm #followme #disney #disneylandresort #excited"
     },
     {
         "country_name": "Trinidad and Tobago",
@@ -698,9 +698,14 @@ $(function(e) {
     
     $('.map g').click(function() {
         var country_data= $(this).data('country');
+        var a = document.getElementById('.map g');
         $('<div class="model">'
           +country_data.country_name
           +'<br>'
+          +'<div class="country">'
+          +'<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-132 113 553 318.6" style="enable-background:new -132 113 553 318.6;" xml:space="preserve">'
+          +'</div>'
           +'<div class="tagbox">'
           +country_data.country_tags
           +'</div>'
