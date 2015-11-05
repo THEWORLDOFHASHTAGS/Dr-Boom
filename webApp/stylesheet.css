@@ -74,13 +74,14 @@ body {
     z-index: 10; /* keep on top of other elements on the page */
     /*outline: 9999px solid rgba(0,0,0,0.2);*/
 }
-<<<<<<< HEAD
-=======
+
 .close { 
-     position: absolute;
-     bottom: 0;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
 }
->>>>>>> 63f3d0cba634f0b0063e5fc92f0946bb05d9e5bc
+
 .country {
     position: relative;
     fill: #00E676;

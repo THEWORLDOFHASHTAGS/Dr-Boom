@@ -700,6 +700,7 @@ $(function(e) {
     $('.map g').click(function() {
         var country_data= $(this).data('country');
         //var a = $(document.createElement('.map g'));
+        $('<div class="overlay"></div>').appendTo('body');
         $('<div class="model">'
           +country_data.country_name
           +'<br>'
@@ -710,13 +711,13 @@ $(function(e) {
           +'<div class="tagbox">'
           +country_data.country_tags
           +'</div>'
-          +'<button class="close">close</button>'
           +'</div>').appendTo('body');
         $('.map #'+country_data.country_code).clone().appendTo('#mySVG');
     }); 
     
-    $('body').on('click', '.close', 'body', function() {
+    $('body').on('click', '.overlay', 'body', function() {
         $('.model').remove();
+        $('.overlay').remove();
     });
     
 });
