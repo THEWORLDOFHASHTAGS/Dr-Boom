@@ -26,11 +26,13 @@ var countries = [
     },
     {
         "country_name": "China",
-        "country_code": "CHN"
+        "country_code": "CHN",
+        "country_tags": "BLOCKED!"
     },
     {
         "country_name": "Russia",
-        "country_code": "RUS"
+        "country_code": "RUS",
+        "country_tags": "#romanian #mycity #like4like #tb #mybestphoto #motivation #фразадня #петров #язык #казахстан #happyenglish #ispeak #урок #словодня #английский #englishkz #английскийалматы #принцесса #kazinsta #полиглот #английскийдлявзрослых #instaenglish #phrases #обучение #сказка #алматы #курсы #english #everydayenglish #английскийвалматы"
     },
     {
         "country_name": "Mongolia",
@@ -593,8 +595,9 @@ var countries = [
         "country_code": "BAH_1_"
     },
     {
-        "country_name": "Unite States of America",
-        "country_code": "USA_1_"
+        "country_name": "United States of America",
+        "country_code": "USA_1_",
+        "country_tag": "#cute #mcm #usa #tumblrgirl #selfie #sfs #tbh #facebook #follow4follow #mcw #girl #onedirection #tumblrboy #shoutouts #wcw #famous #followforfollow #kyliejenner #beyonce #shoutout #justinbieber #followers #f4f #likeforlike #cutie #wcm #followme #disney #disneylandresort #excited"
     },
     {
         "country_name": "Trinidad and Tobago",
