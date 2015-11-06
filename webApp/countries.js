@@ -704,15 +704,19 @@ $(function(e) {
         $('<div class="model">'
           +country_data.country_name
           +'<br>'
-         /* +'<div class="country">'
-          +'<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="mySVG" width="400" height="400">'
-          +'</svg>'
-          +'</div>'*/ 
+          //+'<div class="country">'
+          //+'<svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMin meet">'
+          //+'<rect id="background" width="100%" height="100%" fill="grey"/>'
+          //+'<defs id="mySVG">'
+          //+'</defs>'
+          //+'<use xlink:href="path/to/test.svg#USA_1_" x="0" y="0" />'
+          //+'</svg>'
+          //+'</div>'
           +'<div class="tagbox">'
           +country_data.country_tags
           +'</div>'
           +'</div>').appendTo('body');
-        $('.map #'+country_data.country_code).clone().appendTo('#mySVG');
+        //$('.map #'+country_data.country_code).clone().appendTo('#mySVG');
     }); 
     
     $('body').on('click', '.overlay', 'body', function() {
