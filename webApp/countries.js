@@ -700,18 +700,30 @@ $(function(e) {
     $('.map g').click(function() {
         var country_data= $(this).data('country');
         //var a = $(document.createElement('.map g'));
+    
+        var socket = io();
+        $('form').submit(function(){
+        socket.emit('chat message', country_data.country_code);
+            return false;
+    });
+  socket.on('chat message', function(msg){
+    $('#messages').append($('<li>').text(msg));
+  });
+        
         $('<div class="overlay"></div>').appendTo('body');
         $('<div class="model">'
           +country_data.country_name
           +'<br>'
-          //+'<div class="country">'
-          //+'<svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMin meet">'
-          //+'<rect id="background" width="100%" height="100%" fill="grey"/>'
-          //+'<defs id="mySVG">'
-          //+'</defs>'
-          //+'<use xlink:href="path/to/test.svg#USA_1_" x="0" y="0" />'
-          //+'</svg>'
-          //+'</div>'
+          +'<div class="country">'
+          +'<svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMin meet">'
+          +'<rect id="background" width="100%" height="100%" fill="grey"/>'
+          +'<defs id="mySVG">'
+          +'</defs>'
+          +'<use xlink:href="path/to/test.svg#USA_1_" x="0" y="0" />'
+          +'</svg>'
+          +'</div>'
+          +</ul id="messages">'
+          +</ul>'
           +'<div class="tagbox">'
           +country_data.country_tags
           +'</div>'
