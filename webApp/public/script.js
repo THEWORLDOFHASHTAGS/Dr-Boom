@@ -700,12 +700,12 @@ $(function(e) {
     $('.map g').click(function() {
         var country_data= $(this).data('country');
         //var a = $(document.createElement('.map g'));
-        /*var socket = io();
+        var socket = io();
         $('form').submit(function(){
             socket.emit('chat message', country_data.country_code);
             return false;
         });
-        */
+        
         $('<div class="overlay"></div>').appendTo('body');
         $('<div class="model">'
           +country_data.country_name
