@@ -700,11 +700,14 @@ $(function(e) {
     $('.map g').click(function() {
         var country_data= $(this).data('country');
         //var a = $(document.createElement('.map g'));
-        var socket = io();
-        $('form').submit(function(){
-            socket.emit('chat message', country_data.country_code);
-            return false;
-        });
+        var socket = io();        
+    //    $('.map g').submit(function(){
+            socket.emit('country', country_data.country_code); 
+            socket.on('country', function(msg){
+            $('#messages').append($('<li id="holder">').text(msg));
+
+        
+          });
         
         $('<div class="overlay"></div>').appendTo('body');
         $('<div class="model">'
@@ -725,11 +728,13 @@ $(function(e) {
           +'</div>'
           +'</div>').appendTo('body');
         //$('.map #'+country_data.country_code).clone().appendTo('#mySVG');
+          
     }); 
-    
+
     $('body').on('click', '.overlay', 'body', function() {
         $('.model').remove();
         $('.overlay').remove();
+        $('.model .messages #holder').remove();
     });
     
 });

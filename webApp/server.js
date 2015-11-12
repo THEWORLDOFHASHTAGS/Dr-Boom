@@ -11,8 +11,9 @@ app.get('/', function(req, res){
 });
 
 io.on('connection', function(socket){
-  socket.on('chat message', function(msg){
-    io.emit('chat message', msg);
+  socket.on('country', function(msg){     
+    console.log(msg);
+    io.emit('country', msg);
   });
 });
 
