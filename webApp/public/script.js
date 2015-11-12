@@ -702,12 +702,10 @@ $(function(e) {
         //var a = $(document.createElement('.map g'));
         var socket = io();        
     //    $('.map g').submit(function(){
-            socket.emit('country', country_data.country_code); 
-            socket.on('country', function(msg){
-            $('#messages').append($('<li id="holder">').text(msg));
-
-        
-          });
+		socket.emit('country', country_data.country_code); 
+		socket.on('country', function(msg){
+            $('#messages').append($('<p id="holder">').text(msg));
+		});
         
         $('<div class="overlay"></div>').appendTo('body');
         $('<div class="model">'
@@ -721,8 +719,8 @@ $(function(e) {
           +'<use xlink:href="path/to/test.svg#USA_1_" x="0" y="0" />'
           +'</svg>'
           +'</div>'
-          +'<ul id="messages">'
-          +'</ul>'
+          +'<div id="messages">'
+          +'</div>'
           +'<div class="tagbox">'
           +country_data.country_tags
           +'</div>'
@@ -732,6 +730,10 @@ $(function(e) {
     }); 
 
     $('body').on('click', '.overlay', 'body', function() {
+		function clearlist (){ 
+			var elem = document.getElementById('mylist');
+			elem.parentNode.removeChild(elem);
+		}
         $('.model').remove();
         $('.overlay').remove();
         $('.model .messages #holder').remove();
