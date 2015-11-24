@@ -16,6 +16,14 @@ app.get('/', function(req, res){
  res.sendFile(__dirname + '/index.html');
 });
 
+<<<<<<< HEAD
+io.on('connection', function(socket){
+  socket.on('country', function(msg){     
+    console.log(msg);
+    io.emit('country', msg);
+	delete msg;
+  });
+=======
 // Handle socket connection
 io.on('connection', function(socket) {
 	socket.on('country', function(txt) {
@@ -29,6 +37,7 @@ io.on('connection', function(socket) {
 			io.emit('country', msg);
 		});
 	});
+>>>>>>> 632d630b505bf2862aec1789bdbc5506950b876e
 });
 
 // Add a port for the server to listen to

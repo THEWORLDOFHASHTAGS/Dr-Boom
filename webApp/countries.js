@@ -1,16 +1,12 @@
 
 var countries = [
-    {
+   {
         "country_name": "Cabinda",
         "country_code": "CAB"
     },
     {
         "country_name": "Vanuatu",
         "country_code": "VAN"
-    },
-    {
-        "country_name": "Norway",
-        "country_code": "NOR_1_"
     },
     {
         "country_name": "Japan",
@@ -27,7 +23,6 @@ var countries = [
     {
         "country_name": "China",
         "country_code": "CHN",
-        "country_tags": "BLOCKED!"
     },
     {
         "country_name": "Russia",
@@ -59,7 +54,7 @@ var countries = [
     },
     {
         "country_name": "Netherlands",
-        "country_code": "NTH_1_"
+        "country_code": "NTH"
     },
     {
         "country_name": "Kazakhstan",
@@ -387,7 +382,7 @@ var countries = [
     },
     {
         "country_name": "Libya",
-        "country_code": "LIB_1_"
+        "country_code": "LIBY"
     },
     {
         "country_name": "Tunisia",
@@ -411,11 +406,11 @@ var countries = [
     },
     {
         "country_name": "Mali",
-        "country_code": "MAL_1_"
+        "country_code": "MALI"
     },
     {
         "country_name": "Burkina Faso",
-        "country_code": "BUR_1_"
+        "country_code": "BURK"
     },
     {
         "country_name": "Senegal",
@@ -539,7 +534,7 @@ var countries = [
     },
     {
         "country_name": "United Kingdom",
-        "country_code": "UK_1_"
+        "country_code": "UK"
     },
     {
         "country_name": "South Africa",
@@ -547,56 +542,51 @@ var countries = [
     },
     {
         "country_name": "Lesotho",
-        "country_code": "LES_1_"
+        "country_code": "LES"
     },
     {
         "country_name": "Australia",
-        "country_code": "AUS_1_"
+        "country_code": "AUS"
     },
     {
         "country_name": "New Zealand",
-        "country_code": "NZ_1_"
+        "country_code": "NZ"
     },
     {
         "country_name": "Iceland",
-        "country_code": "ICE_1_"
+        "country_code": "ICE"
     },
     {
         "country_name": "Dominican Republic",
-        "country_code": "DOM_1_"
+        "country_code": "DOM"
     },
     {
         "country_name": "Greenland",
-        "country_code": "GRN_1_"
-    },
-    {
-        "country_name": "Alaska",
-        "country_code": "ALA_1_"
+        "country_code": "GRN"
     },
     {
         "country_name": "Cuba",
-        "country_code": "CUB_1_"
+        "country_code": "CUB"
     },
     {
         "country_name": "Haiti",
-        "country_code": "HAT_1_"
+        "country_code": "HAT"
     },
     {
         "country_name": "Jamaica",
-        "country_code": "JAM_1_"
+        "country_code": "JAM"
     },
     {
         "country_name": "Canada",
-        "country_code": "CAN_1_"
+        "country_code": "CAN"
     },
     {
         "country_name": "The Bahamas",
-        "country_code": "BAH_1_"
+        "country_code": "BAH"
     },
     {
         "country_name": "United States of America",
-        "country_code": "USA_1_",
-        "country_tags": "#cute #mcm #usa #tumblrgirl #selfie #sfs #tbh #facebook #follow4follow #mcw #girl #onedirection #tumblrboy #shoutouts #wcw #famous #followforfollow #kyliejenner #beyonce #shoutout #justinbieber #followers #f4f #likeforlike #cutie #wcm #followme #disney #disneylandresort #excited"
+        "country_code": "USA",
     },
     {
         "country_name": "Trinidad and Tobago",
@@ -604,88 +594,87 @@ var countries = [
     },
     {
         "country_name": "Chile",
-        "country_code": "CHL_1_"
+        "country_code": "CHL"
     },
     {
         "country_name": "Argentina",
-        "country_code": "ARG_1_"
+        "country_code": "ARG"
     },
     {
         "country_name": "Uruguay",
-        "country_code": "URU_1_"
+        "country_code": "URU"
     },
     {
         "country_name": "Peru",
-        "country_code": "PER_1_"
+        "country_code": "PER"
     },
     {
         "country_name": "Bolivia",
-        "country_code": "BOL_1_"
+        "country_code": "BOL"
     },
     {
         "country_name": "Paraguay",
-        "country_code": "PAR_1_"
+        "country_code": "PAR"
     },
     {
         "country_name": "Venezuela",
-        "country_code": "VEN_1_"
+        "country_code": "VEN"
     },
     {
         "country_name": "Ecuador",
-        "country_code": "ECU_1_"
+        "country_code": "ECU"
     },
     {
         "country_name": "Colombia",
-        "country_code": "COL_1_"
+        "country_code": "COL"
     },
     {
         "country_name": "Guyana",
-        "country_code": "GUY_1_"
+        "country_code": "GUY"
     },
     {
         "country_name": "Suriname",
-        "country_code": "SUR_1_"
+        "country_code": "SUR"
     },
     {
         "country_name": "French Guiana",
-        "country_code": "FRG_1_"
+        "country_code": "FRG"
     },
     {
         "country_name": "Brazil",
-        "country_code": "BRZ_1_",
-        "country_tags": "#girlswhosmokeweed #snowflakes #day8 #horan #curls #15likes #uniform #sillyfaces #coldplay #anime #sweetdreams #followgram #pumps #tower #vscocam #geldi #hairstyle #brunette #cozy #beauty #brunagomes #potd #makeup #fashionphotography #braziliangirl #brasileira #igers #ootd #fall #outfit"
+        "country_code": "BRZ",
     },
     {
         "country_name": "Mexico",
-        "country_code": "MEX_1_"
+        "country_code": "MEX"
     },
     {
         "country_name": "Guatemala",
-        "country_code": "GUA_1_"
+        "country_code": "GUA"
     },
     {
         "country_name": "Belize",
-        "country_code": "BEZ_1_"
+        "country_code": "BEZ"
     },
     {
         "country_name": "El Salvador",
-        "country_code": "ESA_1_"
+        "country_code": "ESA"
     },
     {
         "country_name": "Honduras",
-        "country_code": "HON_1_"
+        "country_code": "HON"
     },
     {
         "country_name": "Nicaragua",
-        "country_code": "NIC_1_"
+        "country_code": "NIC"
     },
     {
         "country_name": "San Jose",
-        "country_code": "SAN_1_"
+        "country_code": "SAN"
     },
     {
         "country_name": "Panama",
-        "country_code": "PAN_1_"
+        "country_code": "PAN"
     },
 ];
 
