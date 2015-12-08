@@ -24,10 +24,12 @@ read_value(DbName, DocID, Key) ->
 update_value(Key, Value, DocID, DbName) ->
 	{ok, Db} = open_db(DbName),
 	{ok, Doc} = open_doc(DbName, DocID),
-	Revision = couchbeam_doc:set_value(Key, Value, Doc),
+    OriginalValue = couchbeam_doc:take_value(Key, Doc),
+    NewValue = OriginalValue ++ Value,
+	Revision = couchbeam_doc:set_value(Key, NewValue, Doc),
 	couchbeam:save_doc(Db, Revision).
 
-extend_doc(Key, Value, DocID, DbName) -> %%NOT TESTED
+extend_doc(Key, Value, DocID, DbName) -> 
 	{ok, Db} = open_db(DbName),
 	{ok, Doc} = open_doc(DbName, DocID),
 	Revision = couchbeam_doc:extend(Key, Value, Doc),
@@ -36,10 +38,12 @@ extend_doc(Key, Value, DocID, DbName) -> %%NOT TESTED
 
 save_to_doc(Key, Value, DbName, DocID, CountryName) ->
 	case doc_exists(DbName, DocID) of
-		false -> save_doc(DocID, CountryName, DbName);
+		false -> save_doc(DocID, CountryName, DbName),
+                 extend_doc(Key, Value, DocID, DbName); %create the key where our value will be updated
 		true -> ok
 	end,
-	extend_doc(Key, Value, DocID, DbName).
+    update_value(Key, Value, DocID, DbName). %update value
+	%extend_doc(Key, Value, DocID, DbName).
 
 doc_exists(DbName, DocID) ->
 	{ok, Db} = open_db(DbName),
@@ -58,7 +62,7 @@ db_save(L, Db) ->
                 	_  ->
                 		AggList = [T, CID, H],
                 		io:format("~p~n", [AggList]),
-                		save_to_doc(T, H, Db, CID, CN);
+                		save_to_doc("data", H, Db, CID, CN); %hardcoded key
                 		%W = [T, C, H],
                         %io:format("~p~n", [W]);
                   	false -> ok
